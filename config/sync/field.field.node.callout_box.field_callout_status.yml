@@ -1,0 +1,21 @@
+uuid: 029e4f30-59a3-44b5-a933-336c37852386
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_callout_status
+    - node.type.callout_box
+  module:
+    - options
+id: node.callout_box.field_callout_status
+field_name: field_callout_status
+entity_type: node
+bundle: callout_box
+label: 'Callout Status'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,64 @@
+uuid: 62cfca03-3b01-4827-b798-c7d9a17c71b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.callout_box.body
+    - field.field.node.callout_box.field_callout_status
+    - field.field.node.callout_box.field_images
+    - field.field.node.callout_box.field_link
+    - node.type.callout_box
+  module:
+    - image
+    - link
+    - options
+    - text
+    - user
+id: node.callout_box.default
+targetEntityType: node
+bundle: callout_box
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_callout_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

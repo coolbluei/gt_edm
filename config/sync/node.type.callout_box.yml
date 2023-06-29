@@ -1,0 +1,18 @@
+uuid: 593ef9fb-1c8a-47c3-bb38-0371f66e0be3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: 'Callout Box'
+type: callout_box
+description: 'Use this content type to create an announcement on the home page under the banner to alert users of an important information.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

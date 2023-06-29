@@ -1,0 +1,36 @@
+uuid: 8fe24311-616a-45a4-b6a4-b590d3ebe143
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.callout_box.body
+    - field.field.node.callout_box.field_callout_status
+    - field.field.node.callout_box.field_images
+    - field.field.node.callout_box.field_link
+    - node.type.callout_box
+  module:
+    - text
+    - user
+id: node.callout_box.teaser
+targetEntityType: node
+bundle: callout_box
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_callout_status: true
+  field_images: true
+  field_link: true

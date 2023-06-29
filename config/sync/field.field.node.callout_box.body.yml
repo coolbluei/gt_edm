@@ -1,0 +1,23 @@
+uuid: 2a67d36c-f15c-445f-8341-64cf9cae3c51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.callout_box
+  module:
+    - text
+id: node.callout_box.body
+field_name: body
+entity_type: node
+bundle: callout_box
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

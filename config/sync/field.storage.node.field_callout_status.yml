@@ -1,0 +1,27 @@
+uuid: 41f4b9ef-70a8-4eb9-9a13-903fa33da29e
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_callout_status
+field_name: field_callout_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: active
+      label: active
+    -
+      value: inactive
+      label: inactive
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
