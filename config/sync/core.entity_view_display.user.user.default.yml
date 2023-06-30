@@ -26,6 +26,6 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 6
+    weight: 7
     region: content
 hidden: {  }

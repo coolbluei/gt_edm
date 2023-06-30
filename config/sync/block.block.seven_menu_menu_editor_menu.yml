@@ -2,7 +2,10 @@ uuid: ab7e7575-3263-4ecf-8894-17c72188715d
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.menu-editor-menu
   module:
+    - system
     - user
   theme:
     - seven
@@ -13,10 +16,13 @@ weight: 0
 provider: null
 plugin: 'system_menu_block:menu-editor-menu'
 settings:
-  id: broken
+  id: 'system_menu_block:menu-editor-menu'
   label: ''
   label_display: '0'
-  provider: core
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
 visibility:
   user_role:
     id: user_role

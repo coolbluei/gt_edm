@@ -5,7 +5,11 @@ dependencies:
   config:
     - filter.format.minimal_html
     - filter.format.text_editor_basic
+    - node.type.horizontal_landing_page
+    - node.type.multipurpose_page
     - node.type.page
+    - node.type.super_block
+    - node.type.vertical_landing_page
   module:
     - block
     - contextual
