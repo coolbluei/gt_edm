@@ -1,4 +1,4 @@
-name: ebb
+name: edm
 recipe: 'drupal8'
 config:
   php: '8.1'
@@ -11,6 +11,6 @@ services:
   appserver:
     overrides:
       environment:
-        DRUSH_OPTIONS_URI: "https://ebb.lndo.site"
+        DRUSH_OPTIONS_URI: "https://edm.lndo.site"
   pma:
     type: phpmyadmin

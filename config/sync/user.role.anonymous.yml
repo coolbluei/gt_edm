@@ -12,7 +12,3 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
-  - 'diff view changes'
-  - 'search content'
-  - 'view revision status messages'
-  - 'view revisions of any super_block content'
